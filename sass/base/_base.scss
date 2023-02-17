@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  @include font(1.4rem, 400, 1.6rem);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  @include font(1.2rem, 400, 1.6rem);
+  letter-spacing: 0.14em;
+  color: $color-header;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
