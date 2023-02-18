@@ -29,10 +29,33 @@ h1 {
   color: $color-header;
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  @include font(4.5rem, 400, 6rem);
+  color: $color-main;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  @include font(3.2rem, 400, 4.27rem);
+  color: $color-main;
+}
+
+p {
+  @include font(1.6rem, 400, 2.4rem);
+  color: $color-dark-background;
+}
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
+}
+
+.price {
+  font-family: 'Prata', serif;
+  color: $color-main;
+  @include font(1.2rem, 400, 1.6rem);
 }

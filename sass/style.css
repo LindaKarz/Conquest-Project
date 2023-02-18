@@ -35,12 +35,61 @@ h1 {
   color: #555248;
 }
 
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 6rem;
+  font-style: normal;
+  color: #1B1A17;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 4.27rem;
+  font-style: normal;
+  color: #1B1A17;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-style: normal;
+  color: #444240;
+}
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
+}
+
+.price {
+  font-family: "Prata", serif;
+  color: #1B1A17;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-style: normal;
+}
+
+.button {
+  width: 205px;
+  height: 64px;
+  background-color: #444240;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .header__wrapper {
@@ -129,6 +178,101 @@ li {
   width: 18px;
   height: 16px;
   background-image: url(/images/cart-icon.svg);
+}
+
+.collection {
+  background-image: url(/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.collection__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection__description {
+  display: flex;
+  flex-direction: column;
+  padding: 236px 0 0 0;
+}
+
+.collection__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 408px;
+  padding-bottom: 16px;
+}
+
+.line {
+  width: 50px;
+  height: 0;
+  border: 1px solid #8B8371;
+}
+
+.title__text {
+  padding-left: 15px;
+}
+
+.collection__subtitle {
+  padding: 0 0 39px 65px;
+}
+
+.collection__text {
+  max-width: 260px;
+  margin: 0 0 42px 65px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.13rem;
+  font-style: normal;
+  color: #1B1A17;
+}
+
+.collection__button {
+  margin-left: 64px;
+}
+
+.collection__image {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-image: url(/images/watch_main.png);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 768px;
+}
+
+.image__description {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-style: normal;
+}
+
+.image__price {
+  padding-top: 138px;
+}
+
+.image__text {
+  font-family: "Prata", serif;
+  color: #1B1A17;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-style: normal;
+}
+.image__text_price {
+  padding-right: 15px;
+}
+.image__text_diameter {
+  padding-left: 15px;
+}
+
+.image__diameter {
+  padding-top: 636px;
 }
 
 .wrapper {

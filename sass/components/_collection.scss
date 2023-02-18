@@ -1,0 +1,85 @@
+.collection {
+  background-image: url(/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.collection__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection__description {
+  display: flex;
+  flex-direction: column;
+  padding: 236px 0 0 0;
+}
+
+.collection__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 408px;
+  padding-bottom: 16px;
+}
+
+.line {
+  width: 50px;
+  height: 0;
+  border: 1px solid $color-title-lines;
+}
+
+.title__text {
+  padding-left: 15px;
+}
+
+.collection__subtitle {
+  padding: 0 0 39px 65px;
+}
+
+.collection__text {
+  max-width: 260px;
+  margin: 0 0 42px 65px;
+  @include font(1.4rem, 400, 2.13rem);
+  color: $color-main;
+}
+
+.collection__button {
+  margin-left: 64px;
+}
+
+.collection__image {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-image: url(/images/watch_main.png);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 768px;
+}
+
+.image__description {
+  display: flex;
+  align-items: center;
+  @include font(1.6rem, 400, 2.2rem);
+}
+
+.image__price {
+  padding-top: 138px;
+}
+
+.image__text {
+  font-family: 'Prata', serif;
+  color: $color-main;
+  @include font(1.6rem, 400, 2.2rem);
+  &_price {
+    padding-right: 15px;
+  }
+  &_diameter {
+    padding-left: 15px;
+  }
+}
+
+.image__diameter {
+  padding-top: 636px;
+}
