@@ -192,6 +192,12 @@ li {
 .layout-3-column > * {
   flex-basis: 27%;
 }
+@media (max-width: 1000px) {
+  .layout-3-column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .layout-4-column {
   display: flex;
@@ -305,6 +311,14 @@ li {
 .title__text {
   padding-left: 15px;
 }
+@media (max-width: 1171px) {
+  .title__text {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5rem;
+    font-style: normal;
+  }
+}
 
 .collection__subtitle {
   padding: 0 0 39px 65px;
@@ -333,6 +347,13 @@ li {
   width: 600px;
   height: 768px;
 }
+@media (max-width: 1000px) {
+  .collection__image {
+    width: 400px;
+    height: 568px;
+    background-position: center;
+  }
+}
 
 .image__description {
   display: flex;
@@ -341,6 +362,11 @@ li {
   font-weight: 400;
   line-height: 2.2rem;
   font-style: normal;
+}
+@media (max-width: 1000px) {
+  .image__description {
+    display: none;
+  }
 }
 
 .image__price {
@@ -369,10 +395,20 @@ li {
 .models__wrapper {
   padding: 50px 0 86px 0;
 }
+@media (max-width: 1000px) {
+  .models__wrapper {
+    padding: 30px 0 20px 0;
+  }
+}
 
 .models__title {
   text-align: center;
   padding-bottom: 52px;
+}
+@media (max-width: 1000px) {
+  .models__title {
+    padding-bottom: 20px;
+  }
 }
 
 .see-more {
@@ -381,6 +417,11 @@ li {
   justify-content: space-between;
   align-items: end;
   padding-bottom: 37px;
+}
+@media (max-width: 1000px) {
+  .see-more {
+    padding: 0 20px 20px 0;
+  }
 }
 
 .see-more__link {
@@ -399,9 +440,19 @@ li {
 .model {
   background-color: #FDFDFB;
 }
+@media (max-width: 1000px) {
+  .model {
+    margin: 15px 0;
+  }
+}
 
 .model__wrapper {
   padding: 40px 26px 40px 40px;
+}
+@media (max-width: 1171px) {
+  .model__wrapper {
+    padding: 10px 7px 10px 10px;
+  }
 }
 
 .model__title {
@@ -447,10 +498,20 @@ li {
 .quality {
   background: url(/images/Ellipse\ банер.png) right top no-repeat, url(/images/Ellipse\ банер\ \(1\).png) right bottom no-repeat, url(/images/background.png) no-repeat, #FDFDFB;
 }
+@media (max-width: 1000px) {
+  .quality {
+    background: url(/images/Ellipse\ банер.png) right top no-repeat, url(/images/Ellipse\ банер\ \(1\).png) right bottom no-repeat, url(/images/background.png) no-repeat left bottom, #FDFDFB;
+  }
+}
 
 .quality__wrapper {
   display: flex;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  .quality__wrapper {
+    flex-direction: column-reverse;
+  }
 }
 
 .quality__banner {
@@ -495,6 +556,13 @@ li {
 .quality__content {
   padding-left: 69px;
 }
+@media (max-width: 1000px) {
+  .quality__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .quality__title {
   padding-bottom: 38px;
@@ -510,6 +578,11 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 81px 0 90px 0;
+}
+@media (max-width: 1000px) {
+  .social__wrapper {
+    padding: 40px 0 30px 0;
+  }
 }
 
 .social__title {
@@ -544,6 +617,11 @@ li {
   align-items: center;
   padding-right: 10px;
 }
+@media (max-width: 1000px) {
+  .collage__left {
+    display: none;
+  }
+}
 
 .collage__right {
   display: flex;
@@ -556,6 +634,11 @@ li {
 .footer__wrapper {
   padding: 67px 0;
   justify-content: space-around;
+}
+@media (max-width: 1000px) {
+  .footer__wrapper {
+    padding: 30px 0;
+  }
 }
 
 .contacts-list > * {

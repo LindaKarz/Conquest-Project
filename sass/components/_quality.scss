@@ -1,10 +1,16 @@
 .quality {
   background: url(/images/Ellipse\ банер.png) right top no-repeat, url(/images/Ellipse\ банер\ \(1\).png) right bottom no-repeat, url(/images/background.png) no-repeat, $color-light-background;
+  @include media-tablet {
+    background: url(/images/Ellipse\ банер.png) right top no-repeat, url(/images/Ellipse\ банер\ \(1\).png) right bottom no-repeat, url(/images/background.png) no-repeat left bottom, $color-light-background;;
+  }
 }
 
 .quality__wrapper {
   display: flex;
   align-items: center;
+  @include media-tablet {
+    flex-direction: column-reverse;
+  }
 }
 
 .quality__banner {
@@ -45,6 +51,11 @@
 
 .quality__content {
   padding-left: 69px;
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .quality__title {

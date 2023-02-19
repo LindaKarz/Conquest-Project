@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 81px 0 90px 0;
+  @include media-tablet {
+    padding: 40px 0 30px 0;
+  }
 }
 
 .social__title {
@@ -36,6 +39,9 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 10px;
+  @include media-tablet {
+    display: none;
+  }
 }
 
 .collage__right {

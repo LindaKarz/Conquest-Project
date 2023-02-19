@@ -1,10 +1,16 @@
 .models__wrapper {
   padding: 50px 0 86px 0;
+  @include media-tablet {
+    padding: 30px 0 20px 0;
+  }
 }
 
 .models__title {
   text-align: center;
   padding-bottom: 52px;
+  @include media-tablet {
+    padding-bottom: 20px;
+  }
 }
 
 .see-more {
@@ -13,6 +19,9 @@
   justify-content: space-between;
   align-items: end;
   padding-bottom: 37px;
+  @include media-tablet {
+    padding: 0 20px 20px 0;
+  }
 }
 
 .see-more__link {
@@ -27,10 +36,16 @@
 
 .model {
   background-color: $color-light-background;
+  @include media-tablet {
+    margin: 15px 0;
+  }
 }
 
 .model__wrapper {
   padding: 40px 26px 40px 40px;
+  @include media-laptop {
+    padding: 10px 7px 10px 10px;
+  }
 }
 
 .model__title {

@@ -26,6 +26,9 @@
 
 .title__text {
   padding-left: 15px;
+  @include media-laptop {
+    @include font(4rem, 400, 5rem);
+  }
 }
 
 .collection__subtitle {
@@ -51,12 +54,20 @@
   background-repeat: no-repeat;
   width: 600px;
   height: 768px;
+  @include media-tablet {
+    width: 400px;
+    height: 568px;
+    background-position: center;
+  }
 }
 
 .image__description {
   display: flex;
   align-items: center;
   @include font(1.6rem, 400, 2.2rem);
+  @include media-tablet {
+    display: none;
+  }
 }
 
 .image__price {

@@ -1,5 +1,9 @@
 .layout-3-column {
   @include columns($width: 27%);
+  @include media-tablet {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .layout-4-column {
