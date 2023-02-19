@@ -1,0 +1,36 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_header {
+    width: 104px;
+  }
+  &_footer {
+    width: 130px;
+    padding-bottom: 23px;
+  }
+}
+
+.logo__icon {
+  display: block;
+  width: 19.2px;
+  height: 19.22px;
+  background-image: url(/images/logo-ellipse.svg);
+  margin-right: 5px;
+  &_footer {
+    width: 25.2px;
+    height: 25.2px;
+    background-image: url(/images/Ellipsefooter.svg);
+  }
+}
+
+.logo__text {
+  font-family: 'Playfair Display', serif;
+  @include font(1.2rem, 400, 1.6rem);
+  letter-spacing: 0.14em;
+  color: $color-header;
+  &_footer {
+    @include font(1.4rem, 700, 1.9rem);
+    color: $color-white;
+  }
+}

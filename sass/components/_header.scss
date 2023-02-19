@@ -10,24 +10,6 @@
   padding: 31px 0 28px 0;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header__logo {
-  width: 104px;
-}
-
-.logo__icon {
-  display: block;
-  width: 19.2px;
-  height: 19.22px;
-  background-image: url(/images/logo-ellipse.svg);
-  margin-right: 5px;
-}
-
 .navigation {
   display: flex;
   justify-content: space-between;

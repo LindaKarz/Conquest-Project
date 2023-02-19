@@ -1,0 +1,33 @@
+.footer {
+  background: $color-dark-background;
+}
+
+.footer__wrapper {
+  padding: 67px 0;
+  justify-content: space-around;
+}
+
+.contacts-list {
+  >* {
+    display: block;
+    color: $color-footer-text;
+    @include font(1.2rem, 400, 1.4rem);
+    padding-bottom: 15px;
+  }
+}
+
+.footer__title {
+  padding-bottom: 33px;
+}
+
+.footer__nav {
+  padding: 0;
+  >* {
+    padding: 0 0 15px 0;
+  }
+}
+
+.footer__link {
+  color: $color-footer-text;
+  @include font(1.2rem, 400, 1.4rem);
+}

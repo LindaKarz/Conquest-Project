@@ -22,13 +22,6 @@ body {
   @include font(1.4rem, 400, 1.6rem);
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  @include font(1.2rem, 400, 1.6rem);
-  letter-spacing: 0.14em;
-  color: $color-header;
-}
-
 h2 {
   font-family: 'Playfair Display', serif;
   @include font(4.5rem, 400, 6rem);
@@ -47,6 +40,13 @@ h4 {
   color: $color-main;
 }
 
+h5 {
+  @include font(1.4rem, 700, 1.6rem);
+  letter-spacing: 0.07em;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
 p {
   @include font(1.6rem, 400, 2.4rem);
   color: $color-dark-background;
@@ -55,6 +55,9 @@ p {
 a {
   text-decoration: none;
   color: $color-main;
+  &.footer {
+    color: $color-white;
+  }
 }
 
 li {
