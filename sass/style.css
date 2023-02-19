@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   scroll-behavior: smooth;
 }
@@ -111,6 +112,9 @@ li {
   text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
+}
+.button_colored {
+  background-color: #D4B098;
 }
 
 .wrapper {
@@ -385,6 +389,67 @@ li {
   font-weight: 400;
   line-height: 2.1rem;
   font-style: normal;
+}
+
+.quality {
+  background: url(/images/Ellipse\ банер.png) right top no-repeat, url(/images/Ellipse\ банер\ \(1\).png) right top no-repeat, url(/images/background.png) no-repeat, #FDFDFB;
+}
+
+.quality__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.quality__banner {
+  padding-left: 80px;
+}
+
+.quality__image {
+  padding: 52px 0 20px 0;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 63px;
+  margin-left: 360px;
+  padding-bottom: 20px;
+}
+
+.arrow-left {
+  width: 6px;
+  height: 10px;
+  background-image: url(/images/arrow_left.svg);
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 6px;
+  height: 10px;
+  background-image: url(/images/arrow_right.svg);
+  cursor: pointer;
+}
+
+.image-number {
+  font-family: "Prata", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-style: normal;
+}
+
+.quality__content {
+  padding-left: 69px;
+}
+
+.quality__title {
+  padding-bottom: 38px;
+}
+
+.quality__text {
+  max-width: 376px;
+  padding-bottom: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
