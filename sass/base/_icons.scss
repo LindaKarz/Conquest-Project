@@ -1,0 +1,15 @@
+.icon {
+  width: 24px;
+  height: 23px;
+  padding-right: 18px;
+  cursor: pointer;
+  &_instagram {
+    background: url(/images/instagram_icon.svg) no-repeat center;
+  }
+  &_facebook {
+    background: url(/images/facebook_icon.svg) no-repeat center;
+  }
+  &_twitter {
+    background: url(/images/twitter_icon.svg) no-repeat center;
+  }
+}
