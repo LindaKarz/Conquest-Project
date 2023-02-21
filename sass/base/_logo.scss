@@ -9,6 +9,9 @@
     width: 130px;
     padding-bottom: 23px;
   }
+  @include media-mobile {
+    margin: 0 auto;
+  }
 }
 
 .logo__icon {
