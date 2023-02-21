@@ -8,4 +8,7 @@
 
 .layout-4-column {
   @include columns ($width:16%);
+  @include media-mobile {
+    @include columns ($width:38%);
+  }
 }

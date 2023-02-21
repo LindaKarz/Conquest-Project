@@ -11,6 +11,9 @@
   }
   @include media-mobile {
     margin: 0 auto;
+    &_footer {
+      margin: 0;
+    }
   }
 }
 

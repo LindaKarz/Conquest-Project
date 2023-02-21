@@ -21,6 +21,9 @@
 
 .footer__title {
   padding-bottom: 33px;
+  @include media-mobile {
+    padding: 10px 0;
+  }
 }
 
 .footer__nav {

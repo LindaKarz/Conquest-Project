@@ -8,12 +8,25 @@
   background-image: url(/images/Ellipse.png);
   background-repeat: no-repeat;
   background-position: center;
+  @include media-mobile {
+    background-position: right;
+  }
 }
 
 .collection__description {
   display: flex;
   flex-direction: column;
   padding: 236px 0 0 0;
+  @include media-mobile {
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+}
+
+.collection__line {
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .collection__title {
@@ -58,6 +71,9 @@
     width: 400px;
     height: 568px;
     background-position: center;
+  }
+  @include media-mobile {
+    display: none;
   }
 }
 

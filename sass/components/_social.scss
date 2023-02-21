@@ -5,11 +5,23 @@
   padding: 81px 0 90px 0;
   @include media-tablet {
     padding: 40px 0 30px 0;
+    @include media-mobile {
+      padding: 20px 5px 20px 5px;
+    }
+  }
+}
+
+.social__content {
+  @include media-mobile {
+    margin: 0 auto;
   }
 }
 
 .social__title {
   padding: 120px 0 40px 0;
+  @include media-mobile {
+    padding: 20px 0;
+  }
 }
 
 .social__text {
@@ -19,6 +31,9 @@
   &_bold {
     font-weight: 700;
     color: $color-highligt;
+  }
+  @include media-mobile {
+    padding-bottom: 30px;
   }
 }
 
@@ -31,6 +46,9 @@
 
 .social__collage {
   display: flex;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .collage__left {
